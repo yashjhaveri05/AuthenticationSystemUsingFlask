@@ -12,7 +12,6 @@ CREATE TABLE `users`(
 (100) DEFAULT NULL,
   `mobile_number` varchar
 (15),
-  `email_confirmed` varchar(6) DEFAULT 'False',
   PRIMARY KEY
 (`id`)
 )

@@ -130,7 +130,7 @@ def validateOTP():
             s = session['response']
             session.pop('response',None)
             if s == otp:
-                flash('Mobile verification complete!Please verify your email by clicking on the link sent to the entered email address before loggin in!', 'info')
+                flash('Mobile verification complete!Please verify your email by clicking on the link sent to the entered email address before logging in!', 'info')
                 return redirect(url_for('login'))
             else:
                 return 'You arent authorized'
