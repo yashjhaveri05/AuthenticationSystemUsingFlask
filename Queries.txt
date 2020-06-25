@@ -1,0 +1,18 @@
+CREATE DATABASE
+IF NOT EXISTS `authentication`;
+USE `authentication`;
+
+CREATE TABLE `users`(
+  `id` int NOT NULL AUTO_INCREMENT,
+  `email` varchar
+(100) DEFAULT NULL,
+  `username` varchar
+(100) DEFAULT NULL,
+  `password` varchar
+(100) DEFAULT NULL,
+  `mobile_number` varchar
+(15),
+  `email_confirmed` varchar(6) DEFAULT 'False',
+  PRIMARY KEY
+(`id`)
+)

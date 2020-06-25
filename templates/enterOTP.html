@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="text-light">
+        <form action="/validateOTP" method="POST">
+        <div>
+            <label>Enter OTP</label><br>
+            <input type="text" name="otp"/>
+            <button type="submit">Verify OTP</button>
+        </div>
+    </form>
+</div>
+{% endblock %}
