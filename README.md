@@ -39,6 +39,7 @@ pip install mysqlclient
 pip install flask-mysqldb
 pip install flask-WTF
 pip install passlib
+pip install twilio
 ```
 
 ## Quick Start
